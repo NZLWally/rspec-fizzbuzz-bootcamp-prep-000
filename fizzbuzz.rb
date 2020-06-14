@@ -6,6 +6,6 @@ def fizzbuzz(number)
   elsif (number % 5).zero?
     'Buzz'
   else
-    number
+    nil
   end
 end
